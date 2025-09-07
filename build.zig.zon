@@ -40,6 +40,10 @@
             .url = "git+https://github.com/raylib-zig/raylib-zig?ref=devel#9ad8b8ba7432642acc336d17539e73c3fb9ac300",
             .hash = "raylib_zig-5.6.0-dev-KE8REK4zBQA5y8W9NTGXGHM3YKFtS5UDttcwZ4GTZSau",
         },
+        .zlua = .{
+            .url = "git+https://github.com/natecraddock/ziglua#bf9fc6e6d9c24d5ba53b20acdab657f2fe6cb762",
+            .hash = "zlua-0.1.0-hGRpC444BQDrHc6QhcEeGh1eWMwFbl-c21vlGPWjKBfQ",
+        },
     },
     .paths = .{
         "build.zig",
