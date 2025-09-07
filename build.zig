@@ -66,7 +66,7 @@ pub fn build(b: *std.Build) void {
     const lua_dep = b.dependency("zlua", .{
         .target = target,
         .optimize = optimize,
-        .lang = .luajit,
+        .lang = .lua51,
     });
 
     const raylib = raylib_dep.module("raylib"); // main raylib module

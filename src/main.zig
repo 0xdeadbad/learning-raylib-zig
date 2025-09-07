@@ -13,9 +13,7 @@ pub fn main() anyerror!void {
     var lua = try Lua.init(allocator);
     defer lua.deinit();
 
-    // Add an integer to the Lua stack and retrieve it
-    lua.pushInteger(42);
-    std.debug.print("{}\n", .{try lua.toInteger(1)});
+    lua.openLibs();
 
     // Initialization
     //--------------------------------------------------------------------------------------
